@@ -152,9 +152,8 @@
             "Tariq": { result: "Pass/60" },
             "Fahad": { result: "Pass/85" },
             "Rubab Tawakal": { result: "Pass/60" },
-            "Awais": { result: "Pass/90" },
-            "Haseeb": { result: "Pass/75" },
-            "Hamna":{ result: "Congragulation you are passed keep it up passed 15/20"}
+            "Hamna": { result: "Congragulation you got passed keep it up learning 15/20" },
+            "Haseeb": { result: "Pass/75" }
         };
 
         // Function to display result
@@ -174,9 +173,9 @@
 
                 // Color the result based on pass/fail
                 if (student.result === "Pass") {
-                    resultDisplay.style.color = "green"; // Green for pass
+                    resultDisplay.style.color = "#52B727"; // Green for pass
                 } else {
-                    resultDisplay.style.color = "#dc3545"; // Red for fail
+                    resultDisplay.style.color = "#52B727"; // Red for fail
                 }
             } else {
                 errorDisplay.innerHTML = "Student not found. Please enter a valid name.";
